@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* * {
+  text-align: center;
+} */
+
+body{
+  background-image: url('https://example.com/bck.png');
+  font-family: 'Montserrat', sans-serif;
+  background-color: #16003B;
+  font-size: 42px;
+}
+
+a {
+  text-decoration: none;
+}
+p {
+  color: #A62349;
+  font-weight: bold;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+/* li {
+  list-style: none;
+  display: inline;
+  font-size: 50px;
+} */
+
+/* .list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+} */
+
+.btn-red {
+  background-color: #FB2576;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding:12px 24px;
+  color: #FFFFFF;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  color: #480032;
+}
+
+h2 {
+  color: #D800A6;
+}
+
+h3 {
+  color: #790252;
+}
+
+.cardos {
+  border-radius: 8px;
+  box-shadow: 12px 12px yellow;
+  width: 70%;
+  margin: 24px auto;
+  padding: 32px;
+  text-align: center;
+  background-color: #C6EBC5;
+}
+
+.cardette {
+  border-radius: 8px;
+  box-shadow: 12px 12px pink;
+  width: 70%;
+  margin: 24px auto;
+  padding: 32px;
+  text-align: right;
+  background-color: #00F5FF;
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 12px 12px red;
+  width: 70%;
+  margin: 24px auto;
+  padding: 32px;
+  text-align: left;
+  background-color: #C6EBC5;
+}
